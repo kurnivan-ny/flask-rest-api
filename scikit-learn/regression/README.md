@@ -38,7 +38,7 @@ $ python restapi.py
 - body response:
 ```shell
 {
-"prediction": 26273.42
+  "prediction": 26273.42
 }
 ```
 
