@@ -27,7 +27,7 @@ $ python restapi.py
 - method: `POST`
 - endpoint: `/predict`
 - body request:
-```shell
+```JSON
 {
   "age":20,
   "bmi":30,
@@ -36,7 +36,7 @@ $ python restapi.py
 }
 ```
 - body response:
-```shell
+```JSON
 {
   "prediction": 26273.42
 }
