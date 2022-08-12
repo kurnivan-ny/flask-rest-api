@@ -3,20 +3,15 @@
 This folder contains an example REST API created using Flask to expose the logistic regression model from scikit-learn.
 
 ## Requirements
+ 
+The "requirements file" is the file that lists the items to be installed ([Flask](https://palletsprojects.com/p/flask/) and [Scikit-learn](https://scikit-learn.org/stable/install.html)). Install with:
 
-- [Flask](https://palletsprojects.com/p/flask/) is required. Install with:
-
-  ```shell
-  $ pip install Flask
-  ```
-  
-- [Scikit-learn](https://scikit-learn.org/stable/install.html) is required. Install with:
-
-  ```shell
-  $ pip install scikit-learn
-  ```
+```shell
+$ pip install -r requirements.txt
+```
 
 ## Run
+
 After Flask installation run:
 
 ```shell
