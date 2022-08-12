@@ -4,7 +4,7 @@ This folder contains an example REST API created using Flask to expose the logis
 
 ## Requirements
  
-The "requirements file" is the file that lists the items to be installed ([Flask](https://palletsprojects.com/p/flask/) and [Scikit-learn](https://scikit-learn.org/stable/install.html)). Install with:
+The "requirements file" is the file that lists the items to be installed. Install with:
 
 ```shell
 $ pip install -r requirements.txt
@@ -24,22 +24,13 @@ $ python restapi.py
 - body request:
 ```JSON
 {
-  "age":20,
-  "avg_glucose_level":100,
-  "bmi":30,
-  "gender":"male",
-  "hypertension":"no",
-  "heart_disease":"yes",
-  "ever_married":"no",
-  "work_type":"Govt_job",
-  "Residence_type":"Rural",
-  "smoking_status":"Smokes"
+    "image":"square face.jpg"
 }
 ```
 - body response:
 ```JSON
 {
-  "prediction": "no"
+    "prediction face": "Square"
 }
 ```
 
