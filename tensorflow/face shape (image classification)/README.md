@@ -18,7 +18,7 @@ Run the REST API using commands:
 $ python restapi.py
 ```
 
-## API
+## REST API
 - method: `POST`
 - endpoint: `/predict`
 - body request:
