@@ -1,6 +1,6 @@
 # Flask REST API
 [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) [API](https://en.wikipedia.org/wiki/API)s are commonly used to expose Machine Learning (ML) models to other services.
-This folder contains an example REST API created using Flask to expose the logistic regression model from scikit-learn.
+This folder contains an example REST API created using Flask to expose the sentiment analysis model from tensorflow.
 
 ## Requirements
  
@@ -12,7 +12,7 @@ $ pip install -r requirements.txt
 
 ## Run
 
-After Flask installation run:
+Run the REST API using commands:
 
 ```shell
 $ python restapi.py
@@ -24,13 +24,13 @@ $ python restapi.py
 - body request:
 ```JSON
 {
-    "image":"square face.jpg"
+    "sentence":"former versace store clerk sues over secret black code for minority shoppers"
 }
 ```
 - body response:
 ```JSON
 {
-    "prediction face": "Square"
+    "prediction": "no sarcasm"
 }
 ```
 
