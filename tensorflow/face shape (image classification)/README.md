@@ -12,7 +12,7 @@ $ pip install -r requirements.txt
 
 ## Run
 
-After Flask installation run:
+Run the REST API using commands:
 
 ```shell
 $ python restapi.py
